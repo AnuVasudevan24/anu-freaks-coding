@@ -1,0 +1,32 @@
+public class SwitchCase4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		        System.out.println("Enter the size");
+		        Scanner sc=new Scanner(System.in);
+		        int size = sc.nextInt();
+		        switch (size){
+		            case 29:
+		            	System.out.println("small");
+		            	break;
+		            case 30:
+		            	System.out.println("medium");
+		            	break;
+		            case 38:
+		            	System.out.println("large");
+		            	break;
+		            case 42 :
+		            System.out.println("XLarge" );
+				                break;
+				            default:
+				               
+				                    System.out.println("if size is not any of above than its invalid");
+		            
+		        }
+		}
+
+
+	}
+
+
